@@ -2,6 +2,9 @@
 // and background operations like sync
 
 const registerServiceWorker = async (path) => {
+  // Attempt install only in secure context
+  if (location.protocol !== 'https:') { return }
+
   if ('serviceWorker' in navigator) {
     try {
       const app = await navigator.serviceWorker.register(path)
