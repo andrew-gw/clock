@@ -4,6 +4,8 @@
 
 -->
 
+<?xml-stylesheet type="text/css" href="../css/hands.css" ?>
+
 <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g id="hour-marker" stroke="hsl(0,0%,50%)" stroke-width="0.25">
     <line x1="8" y1="0" x2="8" y2="2" />
