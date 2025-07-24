@@ -35,13 +35,6 @@ A simple clock
 - No Third-Party Frameworks, Libraries, or Packages
 
 
-## Requirements
-
-- JavaScript
-- CSS
-- SVG
-
-
 ## Design Goals
 
 1. User Experience & Accessibility
@@ -55,6 +48,13 @@ A simple clock
 - HTML via [W3C Markup Validation Service](https://validator.w3.org)
 - CSS via [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/)
 - [Lighthouse](https://github.com/GoogleChrome/lighthouse)
+
+
+## Requirements
+
+- JavaScript
+- CSS
+- SVG
 
 
 ## License
