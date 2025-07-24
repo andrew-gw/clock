@@ -1,0 +1,48 @@
+#hour line,
+#minute line,
+#second line {
+  stroke-dashoffset: 8;
+  stroke-dasharray: 8;
+  opacity: 1;
+  animation: .618s cubic-bezier(0.445, 0.050, 0.550, 0.950) forwards enterhand;
+}
+
+#second line {
+  stroke-dashoffset: 10;
+  stroke-dasharray: 10;
+  animation: .618s cubic-bezier(0.445, 0.050, 0.550, 0.950) forwards entersecond;
+}
+
+#red-circle {
+  opacity: 0;
+  animation: .618s cubic-bezier(0.445, 0.050, 0.550, 0.950) forwards circle;
+}
+
+@keyframes circle {
+  0% {
+    r: 0;
+    stroke-width: 0;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes enterhand {
+  0% {
+    stroke-dashoffset: 8;
+  }
+  100% {
+    stroke-dashoffset: 16;
+  }
+}
+
+@keyframes entersecond {
+  0% {
+    stroke-dashoffset: 10;
+  }
+  100% {
+    stroke-dashoffset: 20;
+  }
+}
