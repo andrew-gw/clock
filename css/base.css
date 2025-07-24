@@ -14,7 +14,30 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-
+  display: -webkit-box;
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
   -webkit-text-size-adjust: none;
   -webkit-user-select: none;
+  align-items: center;
+  justify-content: center;
+}
+
+object {
+  position: absolute;
+  margin: 20px;
+
+  height: 100%;
+  width: 100%;
+  height: calc(100% - env(safe-area-inset-top) - env(safe-area-inset-bottom) - (2 * 20px));
+  width: calc(100% - env(safe-area-inset-left) - env(safe-area-inset-right) - (2 * 20px));
+
+  top: 0;
+  left: 0;
+  top: env(safe-area-inset-top);
+  left: env(safe-area-inset-left);
 }
