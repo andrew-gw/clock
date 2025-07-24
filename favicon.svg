@@ -1,0 +1,32 @@
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none">
+      <g transform="translate(0.821797, 0.821797)" stroke="#000000" stroke-width="0.5">
+          <line x1="10.6782032" y1="0.116025404" x2="10.6782032" y2="2.1160254" transform="translate(10.678203, 1.116025) rotate(30.000000) translate(-10.678203, -1.116025) "></line>
+          <line x1="3.67820323" y1="12.2403811" x2="3.67820323" y2="14.2403811" transform="translate(3.678203, 13.240381) rotate(30.000000) translate(-3.678203, -13.240381) "></line>
+          <line x1="13.2403811" y1="2.67820323" x2="13.2403811" y2="4.67820323" transform="translate(13.240381, 3.678203) rotate(60.000000) translate(-13.240381, -3.678203) "></line>
+          <line x1="1.1160254" y1="9.67820323" x2="1.1160254" y2="11.6782032" transform="translate(1.116025, 10.678203) rotate(60.000000) translate(-1.116025, -10.678203) "></line>
+          <line x1="13.2403811" y1="9.67820323" x2="13.2403811" y2="11.6782032" transform="translate(13.240381, 10.678203) rotate(120.000000) translate(-13.240381, -10.678203) "></line>
+          <line x1="1.1160254" y1="2.67820323" x2="1.1160254" y2="4.67820323" transform="translate(1.116025, 3.678203) rotate(120.000000) translate(-1.116025, -3.678203) "></line>
+          <line x1="10.6782032" y1="12.2403811" x2="10.6782032" y2="14.2403811" transform="translate(10.678203, 13.240381) rotate(150.000000) translate(-10.678203, -13.240381) "></line>
+          <line x1="3.67820323" y1="0.116025404" x2="3.67820323" y2="2.1160254" transform="translate(3.678203, 1.116025) rotate(150.000000) translate(-3.678203, -1.116025) "></line>
+      </g>
+      <g stroke="#000000" stroke-width="0.5">
+          <line x1="8" y1="0" x2="8" y2="2"></line>
+          <line x1="8" y1="14" x2="8" y2="16"></line>
+          <line x1="15" y1="7" x2="15" y2="9" transform="translate(15.000000, 8.000000) rotate(90.000000) translate(-15.000000, -8.000000) "></line>
+          <line x1="1" y1="7" x2="1" y2="9" transform="translate(1.000000, 8.000000) rotate(90.000000) translate(-1.000000, -8.000000) "></line>
+      </g>
+      <g transform="translate(3.419873, 3.566987)">
+          <polygon stroke="#FF0000" stroke-width="0.5" points="4.58012702 1.4330127 4.58012702 4.4330127 4.58012702 12.4330127"></polygon>
+          <path d="M-0.0849364905,3.1830127 L4.91506351,3.1830127 L-0.0849364905,3.1830127 Z" stroke="#000000" stroke-width="0.75" transform="translate(2.415064, 3.183013) rotate(30.000000) translate(-2.415064, -3.183013) "></path>
+          <line x1="4.04422863" y1="2.4330127" x2="12.0442286" y2="2.4330127" stroke="#000000" stroke-width="0.75" transform="translate(8.044229, 2.433013) rotate(-30.000000) translate(-8.044229, -2.433013) "></line>
+          <circle fill="#FF0000" cx="4.58012702" cy="4.4330127" r="1"></circle>
+      </g>
+  </g>
+
+  <style>
+    @media (prefers-color-scheme: dark) {
+      line, path { stroke: #FFFFFF }
+    }
+  </style>
+</svg>
