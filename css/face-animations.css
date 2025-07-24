@@ -1,0 +1,35 @@
+#min-marker line {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  opacity: 0;
+  animation: .618s cubic-bezier(0.445, 0.050, 0.550, 0.950) forwards minuteline;
+}
+
+#hour-marker line {
+  stroke-dasharray: 2;
+  stroke-dashoffset: 2;
+  opacity: 0;
+  animation: .618s cubic-bezier(0.445, 0.050, 0.550, 0.950) forwards enterline;
+}
+
+@keyframes enterline {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    stroke: hsla(0,0%,50%,1);
+    stroke-dashoffset: 4;
+    opacity: 1;
+  }
+}
+
+@keyframes minuteline {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    stroke: hsla(0,0%,50%,1);
+    stroke-dashoffset: 2;
+    opacity: 1;
+  }
+}
