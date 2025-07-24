@@ -17,7 +17,7 @@ A simple clock
 
 ## Getting Started
 
-1. Download or Clone the project:
+1. Download or `clone` the project:
 
    `git clone https://github.com/andrew-gw/clock.git`
 
@@ -53,8 +53,8 @@ A simple clock
 ## Requirements
 
 - JavaScript
-- CSS
 - SVG
+- CSS
 
 
 ## License
