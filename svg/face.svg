@@ -9,7 +9,7 @@
 <?xml-stylesheet type="text/css" href="../css/hand-animations.css" ?>
 
 <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <g id="hour-marker" stroke="hsl(0,0%,50%)" stroke-width="0.25">
+  <g id="hour-marker" stroke="#8A8A8E" stroke-width="0.25">
     <line x1="8" y1="0" x2="8" y2="2" />
     <line x1="8" y1="0" x2="8" y2="2" transform="rotate(30, 8, 8)" style="animation-delay: 0.083s" />
     <line x1="8" y1="0" x2="8" y2="2" transform="rotate(60, 8, 8)" style="animation-delay: 0.166s" />
@@ -24,7 +24,7 @@
     <line x1="8" y1="0" x2="8" y2="2" transform="rotate(330, 8, 8)" style="animation-delay: 0.916s" />
   </g>
 
-  <g id="min-marker" stroke="hsl(0,0%,50%)" stroke-width="0.095">
+  <g id="min-marker" stroke="#8A8A8E" stroke-width="0.095">
     <line x1="8" y1="0" x2="8" y2="0.76" transform="rotate(6, 8, 8)" style="animation-delay: 0.016s" />
     <line x1="8" y1="0" x2="8" y2="0.76" transform="rotate(12, 8, 8)" style="animation-delay: 0.033s" />
     <line x1="8" y1="0" x2="8" y2="0.76" transform="rotate(18, 8, 8)" style="animation-delay: 0.05s" />
@@ -100,13 +100,35 @@
     </g>
   </g>
 
-  <circle id="red-circle" cx="8" cy="8" r="0.4" fill="red" />
+  <circle id="red-circle" cx="8" cy="8" r="0.4" fill="#FE3B30" />
 
   <g id="second-container">
-    <g id="second" stroke="red" stroke-width="0.154">
+    <g id="second" stroke="#FE3B30" stroke-width="0.154">
       <line x1="8" y1="0" x2="8" y2="10" />
     </g>
   </g>
+
+  <style>
+    @media (prefers-color-scheme: dark) {
+      #second {
+        stroke: #FF453A;
+      }
+
+      #red-circle {
+        fill: #FF453A;
+      }
+
+      #hour-marker,
+      #min-marker {
+        stroke: #98989F;
+      }
+
+      #minute,
+      #hour {
+        stroke: white;
+      }
+    }
+  </style>
 
   <script xlink:href="../functions.js"></script>
 </svg>

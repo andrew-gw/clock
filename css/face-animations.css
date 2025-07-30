@@ -17,7 +17,6 @@
     opacity: 1;
   }
   100% {
-    stroke: hsla(0,0%,50%,1);
     stroke-dashoffset: 4;
     opacity: 1;
   }
@@ -28,7 +27,6 @@
     opacity: 1;
   }
   100% {
-    stroke: hsla(0,0%,50%,1);
     stroke-dashoffset: 2;
     opacity: 1;
   }

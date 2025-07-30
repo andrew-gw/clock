@@ -21,10 +21,3 @@
     0% { -webkit-transform: rotate(0) }
   100% { -webkit-transform: rotate(360deg) }
 }
-
-@media (prefers-color-scheme: dark) {
-  #minute,
-  #hour {
-    stroke: white
-  }
-}
