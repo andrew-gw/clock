@@ -18,10 +18,10 @@
       <line x1="1" y1="7" x2="1" y2="9" transform="translate(1.000000, 8.000000) rotate(90.000000) translate(-1.000000, -8.000000) "></line>
     </g>
     <g transform="translate(4.419873, 4.566987)">
-      <polygon stroke="#FF0000" stroke-width="0.5" points="4.58012702 1.4330127 4.58012702 4.4330127 4.58012702 12.4330127"></polygon>
+      <polygon stroke="#FE3B30" stroke-width="0.5" points="4.58012702 1.4330127 4.58012702 4.4330127 4.58012702 12.4330127"></polygon>
       <path d="M-0.0849364905,3.1830127 L4.91506351,3.1830127 L-0.0849364905,3.1830127 Z" stroke="#000000" stroke-width="0.75" transform="translate(2.415064, 3.183013) rotate(30.000000) translate(-2.415064, -3.183013) "></path>
       <line x1="4.04422863" y1="2.4330127" x2="12.0442286" y2="2.4330127" stroke="#000000" stroke-width="0.75" transform="translate(8.044229, 2.433013) rotate(-30.000000) translate(-8.044229, -2.433013) "></line>
-      <circle fill="#FF0000" cx="4.58012702" cy="4.4330127" r="1"></circle>
+      <circle fill="#FE3B30" cx="4.58012702" cy="4.4330127" r="1"></circle>
     </g>
   </g>
 </svg>
